@@ -1,0 +1,106 @@
+### YamlMime:Hub
+
+#root section (Required)
+title: Microsoft 365 Copilot documentation # < 60 chars
+summary: Learn about Microsoft 365 Copilot and how your organization can use this copilot for work. # < 160 chars
+brand: m365
+
+metadata:
+  title: Microsoft 365 Copilot documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn about Microsoft 365 Copilot and how your organization can use this copilot for work. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: microsoft-365-copilot 
+  ms.topic: hub-page # Required
+  ms.collection: 
+  - essentials-navigation
+  - m365copilot
+  - magic-ai-copilot
+  author: samanro #Required; your GitHub user alias, with correct capitalization.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 08/09/2024 #Required; mm/dd/yyyy format.
+  ms.custom: [copilot-learning-hub]
+
+# conceptualContent section (Optional; Remove if not applicable.)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | training | overview | quickstart | reference | sample | tutorial | video | whats-new
+  # Supports up to 3 subsections
+  sections:
+    - items:
+        # Card
+        - title: How does Microsoft 365 Copilot work?
+          links:
+            - url: microsoft-365-copilot-overview.md
+              itemType: overview
+              text: A technical introduction to Microsoft 365 Copilot
+            - url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-NeN9BbLb5sLpIGfdP8j78
+              itemType: video
+              text: Mechanics Microsoft 365 Copilot playlist
+        # Card
+        - title: How Microsoft protects your data
+          links:
+            - url: https://support.microsoft.com/topic/what-is-responsible-ai-33fc14be-15ea-4c2c-903b-aa493f5b8d92
+              itemType: reference
+              text: Microsoft's commitment to Responsible AI
+            - url: microsoft-365-copilot-privacy.md
+              itemType: concept
+              text: How Microsoft 365 Copilot protects organizational data
+        # Card
+        - title: Get ready for Microsoft 365 Copilot
+          links:
+            - url: microsoft-365-copilot-licensing.md
+              itemType: concept
+              text: Licensing requirements
+            - url: microsoft-365-copilot-requirements.md
+              itemType: concept
+              text: Technical prerequisites
+            - url: https://www.microsoft.com/en-us/solutionassessments/safeedbackform
+              itemType: get-started
+              text: Microsoft 365 Copilot Optimization Assessment (English only)
+        # Card
+        - title: Onboard and engage
+          links:
+            - url: microsoft-365-copilot-setup.md
+              itemType: deploy
+              text: Set up Microsoft 365 Copilot
+            - url: https://setup.cloud.microsoft/copilot-for-microsoft-365/setup-guide
+              itemType: deploy
+              text: Use the Microsoft 365 Copilot setup guide
+            - url: https://adoption.microsoft.com/copilot/
+              itemType: get-started
+              text: Best practices and tools for employee engagement
+            - url: https://adoption.microsoft.com/copilot-scenario-library/
+              itemType: get-started
+              text: Microsoft Copilot Scenario Library
+            - url: https://copilot.cloud.microsoft/
+              itemType: training
+              text: Copilot lab for recommended propmts and tutorials
+        # Card
+        - title: Deliver impact
+          links:
+            - url: /microsoft-365/admin/activity-reports/microsoft-365-copilot-usage?bc=/microsoft-365/copilot/breadcrumb/toc.json&toc=/microsoft-365/copilot/toc.json
+              itemType: how-to-guide
+              text: Use the Microsoft 365 Copilot usage report
+            - url: /viva/insights/org-team-insights/copilot-dashboard?bc=/microsoft-365/copilot/breadcrumb/toc.json&toc=/microsoft-365/copilot/toc.json
+              itemType: how-to-guide
+              text: Use the Microsoft Copilot Dashboard in Viva Insights
+            - url: /viva/engage/configure-copilot-for-engage?bc=/microsoft-365/copilot/breadcrumb/toc.json&toc=/microsoft-365/copilot/toc.json
+              itemType: how-to-guide
+              text: Accelerate change with Viva Insights
+            - url: /viva/goals/copilot-intro?bc=/microsoft-365/copilot/breadcrumb/toc.json&toc=/microsoft-365/copilot/toc.json
+              itemType: how-to-guide
+              text: Accelerate change with Viva Goals
+        # Card
+        - title: Extend and optimize
+          links:
+            - url: /microsoft-365-copilot/extensibility/
+              itemType: overview
+              text: Building your own plug-ins and connectors
+            - url: /microsoft-365-copilot/extensibility/build-or-extend#build-your-own-copilot
+              itemType: overview 
+              text: Build a custom Copilot
+            - url: /microsoft-copilot-studio/
+              itemType: overview 
+              text: Get started with Copilot Studio
+            - url: /training/paths/copilot-m365-extensibility/
+              itemType: training
+              text: Extend Microsoft 365 Copilot learning path
+            
